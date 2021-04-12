@@ -43,16 +43,19 @@ body{
 .main-green-button:hover{
     box-shadow: 0 0 5px #006155;
 }
-.testing{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 8%;
-    padding-right: 8%;
-    font-size: 17px;
-    border-radius: 5px;
-    background-color: #006155;
-    border: #006155;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+ /*mobile*/
+@media screen and (max-width: 414px){
+    .icon-container{
+        width: 45%;
+    }
+    .default-text{
+        width: 100%;
+    }
+    .main-green-button{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
 
